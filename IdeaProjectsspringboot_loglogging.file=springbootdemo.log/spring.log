@@ -1,0 +1,14 @@
+2019-05-13 21:06:59.850  INFO 15980 --- [main] c.yty.blogsystem.BlogsystemApplication   : Starting BlogsystemApplication on DESKTOP-66AU3KI with PID 15980 (D:\IdeaProjects\blogsystem\target\classes started by 0.0 in D:\IdeaProjects\blogsystem)
+2019-05-13 21:06:59.853  INFO 15980 --- [main] c.yty.blogsystem.BlogsystemApplication   : No active profile set, falling back to default profiles: default
+2019-05-13 21:07:01.420  INFO 15980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-13 21:07:01.444  INFO 15980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-13 21:07:01.445  INFO 15980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-13 21:07:01.453  INFO 15980 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-05-13 21:07:01.453  INFO 15980 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-13 21:07:01.453  INFO 15980 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-13 21:07:01.457  INFO 15980 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-05-13 21:07:01.559  INFO 15980 --- [main] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring embedded WebApplicationContext
+2019-05-13 21:07:01.559  INFO 15980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1656 ms
+2019-05-13 21:07:01.797  INFO 15980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-13 21:07:02.058  INFO 15980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blogsystem'
+2019-05-13 21:07:02.065  INFO 15980 --- [main] c.yty.blogsystem.BlogsystemApplication   : Started BlogsystemApplication in 2.645 seconds (JVM running for 3.567)

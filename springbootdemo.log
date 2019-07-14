@@ -1,0 +1,306 @@
+2019-07-15 00:17:02.086  INFO 14372 --- [main] c.y.b.BlogsystemApplicationTests         : Starting BlogsystemApplicationTests on DESKTOP-66AU3KI with PID 14372 (started by 0.0 in D:\IdeaProjects\blogsystem)
+2019-07-15 00:17:02.097  INFO 14372 --- [main] c.y.b.BlogsystemApplicationTests         : No active profile set, falling back to default profiles: default
+2019-07-15 00:17:04.677  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:17:04.696  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:17:04.736  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2019-07-15 00:17:04.768  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:17:04.768  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:17:04.776  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-07-15 00:17:04.793  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:17:04.795  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:17:04.812  INFO 14372 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-07-15 00:17:05.683  INFO 14372 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c86fb15b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-15 00:17:06.492  INFO 14372 --- [main] ication$$EnhancerBySpringCGLIB$$2ee67b5f : 使用后初始化方法，观察自动生成的事务管理器:org.springframework.jdbc.datasource.DataSourceTransactionManager
+2019-07-15 00:17:08.898  INFO 14372 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[120.77.87.104:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 00:17:09.500  INFO 14372 --- [cluster-ClusterId{value='5d2b5584b47e72382449a5bd', description='null'}-120.77.87.104:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:24}] to 120.77.87.104:27017
+2019-07-15 00:17:09.554  INFO 14372 --- [cluster-ClusterId{value='5d2b5584b47e72382449a5bd', description='null'}-120.77.87.104:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.77.87.104:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49483101}
+2019-07-15 00:17:09.965  INFO 14372 --- [main] com.yty.blogsystem.db.DataSourceShow     : 打印加载数据源：org.apache.commons.dbcp2.BasicDataSource
+2019-07-15 00:17:11.042  INFO 14372 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-15 00:17:12.276  INFO 14372 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 00:17:15.517  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-07-15 00:17:15.519  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-07-15 00:17:15.520  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-07-15 00:17:15.520  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-07-15 00:17:15.520  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-07-15 00:17:15.520  INFO 14372 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-07-15 00:17:20.817  INFO 14372 --- [main] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2019-07-15 00:17:24.311  INFO 14372 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31450fc0, org.springframework.security.web.context.SecurityContextPersistenceFilter@353422fd, org.springframework.security.web.header.HeaderWriterFilter@f5167f0, org.springframework.security.web.csrf.CsrfFilter@4b9b5da5, org.springframework.security.web.authentication.logout.LogoutFilter@3aed692d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71d78cac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@44dcc0e4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@52b30dcd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8b1170f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cc669d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@331ad6eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49de1505, org.springframework.security.web.session.SessionManagementFilter@6b576ff8, org.springframework.security.web.access.ExceptionTranslationFilter@48bab2c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c3b0cc8]
+2019-07-15 00:17:24.469  INFO 14372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-15 00:17:25.085  INFO 14372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-15 00:17:25.167  INFO 14372 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-15 00:17:25.505  INFO 14372 --- [main] c.y.b.BlogsystemApplicationTests         : Started BlogsystemApplicationTests in 23.956 seconds (JVM running for 26.967)
+2019-07-15 00:17:26.705  INFO 14372 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-15 00:18:14.656  INFO 11996 --- [main] c.yty.blogsystem.BlogsystemApplication   : Starting BlogsystemApplication on DESKTOP-66AU3KI with PID 11996 (D:\IdeaProjects\blogsystem\target\classes started by 0.0 in D:\IdeaProjects\blogsystem)
+2019-07-15 00:18:14.658  INFO 11996 --- [main] c.yty.blogsystem.BlogsystemApplication   : No active profile set, falling back to default profiles: default
+2019-07-15 00:18:16.173  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:18:16.175  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:18:16.196  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-15 00:18:16.214  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:18:16.214  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:18:16.218  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-15 00:18:16.227  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:18:16.228  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:18:16.237  INFO 11996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-15 00:18:16.593  INFO 11996 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d9d79814] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-15 00:18:17.578  INFO 11996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-15 00:18:17.623  INFO 11996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-15 00:18:17.624  INFO 11996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-15 00:18:17.647  INFO 11996 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-15 00:18:17.647  INFO 11996 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-15 00:18:17.647  INFO 11996 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-15 00:18:17.739  INFO 11996 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-15 00:18:18.049  INFO 11996 --- [main] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring embedded WebApplicationContext
+2019-07-15 00:18:18.049  INFO 11996 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3321 ms
+2019-07-15 00:18:18.475  INFO 11996 --- [main] ication$$EnhancerBySpringCGLIB$$404e6218 : 使用后初始化方法，观察自动生成的事务管理器:org.springframework.jdbc.datasource.DataSourceTransactionManager
+2019-07-15 00:18:18.560  INFO 11996 --- [main] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter 初始化
+2019-07-15 00:18:19.649  INFO 11996 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[120.77.87.104:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 00:18:20.008  INFO 11996 --- [main] com.yty.blogsystem.db.DataSourceShow     : 打印加载数据源：org.apache.commons.dbcp2.BasicDataSource
+2019-07-15 00:18:20.051  INFO 11996 --- [cluster-ClusterId{value='5d2b55cbb47e722edcb0e9dd', description='null'}-120.77.87.104:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:25}] to 120.77.87.104:27017
+2019-07-15 00:18:20.124  INFO 11996 --- [cluster-ClusterId{value='5d2b55cbb47e722edcb0e9dd', description='null'}-120.77.87.104:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.77.87.104:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=71436500}
+2019-07-15 00:18:20.352  INFO 11996 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-15 00:18:20.515  INFO 11996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 00:18:21.042  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-07-15 00:18:21.043  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-07-15 00:18:21.044  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-07-15 00:18:21.044  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-07-15 00:18:21.044  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-07-15 00:18:21.044  INFO 11996 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-07-15 00:18:22.372  INFO 11996 --- [main] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2019-07-15 00:18:24.261  INFO 11996 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5602e540, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c5f12e, org.springframework.security.web.header.HeaderWriterFilter@1e7d3d87, org.springframework.security.web.csrf.CsrfFilter@12723c5d, org.springframework.security.web.authentication.logout.LogoutFilter@4f6ff62, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73ae82da, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@540212be, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11f9b95a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7109b603, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68f69ca3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@476c137b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42066f0d, org.springframework.security.web.session.SessionManagementFilter@7e76a66f, org.springframework.security.web.access.ExceptionTranslationFilter@417446d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50bb1c1f]
+2019-07-15 00:18:24.368  INFO 11996 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-15 00:18:24.391  INFO 11996 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-15 00:18:24.433  INFO 11996 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-15 00:18:24.838  INFO 11996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blogsystem'
+2019-07-15 00:18:24.841  INFO 11996 --- [main] c.yty.blogsystem.BlogsystemApplication   : Started BlogsystemApplication in 10.891 seconds (JVM running for 14.725)
+2019-07-15 00:18:24.843  INFO 11996 --- [main] c.yty.blogsystem.BlogsystemApplication   : 启动 BlogsystemApplication
+2019-07-15 00:18:25.241  INFO 11996 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 00:18:25.242  INFO 11996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-15 00:18:25.257  INFO 11996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2019-07-15 00:18:34.979  INFO 11996 --- [http-nio-8080-exec-4] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter doFilter 请求处理
+2019-07-15 00:18:34.985  INFO 11996 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:18:36.321  INFO 11996 --- [http-nio-8080-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:26}] to 120.77.87.104:27017
+2019-07-15 00:18:36.437  INFO 11996 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor postHandle:请求后调用
+2019-07-15 00:18:36.437  INFO 11996 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-07-15 00:18:38.556  INFO 11996 --- [http-nio-8080-exec-10] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter doFilter 请求处理
+2019-07-15 00:18:38.558  INFO 11996 --- [http-nio-8080-exec-10] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:18:38.608  INFO 11996 --- [http-nio-8080-exec-10] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor postHandle:请求后调用
+2019-07-15 00:18:38.608  INFO 11996 --- [http-nio-8080-exec-10] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-07-15 00:27:18.663  INFO 1664 --- [main] c.yty.blogsystem.BlogsystemApplication   : Starting BlogsystemApplication on DESKTOP-66AU3KI with PID 1664 (D:\IdeaProjects\blogsystem\target\classes started by 0.0 in D:\IdeaProjects\blogsystem)
+2019-07-15 00:27:18.668  INFO 1664 --- [main] c.yty.blogsystem.BlogsystemApplication   : No active profile set, falling back to default profiles: default
+2019-07-15 00:27:20.369  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:27:20.371  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:27:20.391  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-15 00:27:20.409  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:27:20.409  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:27:20.412  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-15 00:27:20.422  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:27:20.423  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:27:20.431  INFO 1664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-15 00:27:20.782  INFO 1664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5da6d2c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-15 00:27:21.074  INFO 1664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-15 00:27:21.094  INFO 1664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-15 00:27:21.094  INFO 1664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-15 00:27:21.102  INFO 1664 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-15 00:27:21.102  INFO 1664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-15 00:27:21.102  INFO 1664 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-15 00:27:21.105  INFO 1664 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-15 00:27:21.266  INFO 1664 --- [main] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring embedded WebApplicationContext
+2019-07-15 00:27:21.267  INFO 1664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2449 ms
+2019-07-15 00:27:21.576  INFO 1664 --- [main] ication$$EnhancerBySpringCGLIB$$c41d9cc8 : 使用后初始化方法，观察自动生成的事务管理器:org.springframework.jdbc.datasource.DataSourceTransactionManager
+2019-07-15 00:27:21.634  INFO 1664 --- [main] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter 初始化
+2019-07-15 00:27:22.841  INFO 1664 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[120.77.87.104:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 00:27:23.070  INFO 1664 --- [cluster-ClusterId{value='5d2b57eab47e72068017cb5f', description='null'}-120.77.87.104:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:27}] to 120.77.87.104:27017
+2019-07-15 00:27:23.107  INFO 1664 --- [main] com.yty.blogsystem.db.DataSourceShow     : 打印加载数据源：org.apache.commons.dbcp2.BasicDataSource
+2019-07-15 00:27:23.125  INFO 1664 --- [cluster-ClusterId{value='5d2b57eab47e72068017cb5f', description='null'}-120.77.87.104:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.77.87.104:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=54054799}
+2019-07-15 00:27:23.423  INFO 1664 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-15 00:27:23.580  INFO 1664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 00:27:24.113  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-07-15 00:27:24.114  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-07-15 00:27:24.114  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-07-15 00:27:24.114  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-07-15 00:27:24.114  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-07-15 00:27:24.115  INFO 1664 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-07-15 00:27:25.470  INFO 1664 --- [main] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2019-07-15 00:27:27.481  INFO 1664 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1868ed54, org.springframework.security.web.context.SecurityContextPersistenceFilter@e895e3e, org.springframework.security.web.header.HeaderWriterFilter@115ef673, org.springframework.security.web.csrf.CsrfFilter@309cf657, org.springframework.security.web.authentication.logout.LogoutFilter@1e9d7366, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53918b5e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6fc7e828, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@131777e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1fca53a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70805849, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76cf91c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45790cb, org.springframework.security.web.session.SessionManagementFilter@614cd187, org.springframework.security.web.access.ExceptionTranslationFilter@3e8afc2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65a4b9d6]
+2019-07-15 00:27:27.592  INFO 1664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-15 00:27:27.614  INFO 1664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-15 00:27:27.650  INFO 1664 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-15 00:27:27.882  INFO 1664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blogsystem'
+2019-07-15 00:27:27.885  INFO 1664 --- [main] c.yty.blogsystem.BlogsystemApplication   : Started BlogsystemApplication in 9.873 seconds (JVM running for 11.487)
+2019-07-15 00:27:27.888  INFO 1664 --- [main] c.yty.blogsystem.BlogsystemApplication   : 启动 BlogsystemApplication
+2019-07-15 00:27:52.034  INFO 1664 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 00:27:52.034  INFO 1664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-15 00:27:52.043  INFO 1664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-07-15 00:27:58.163  INFO 1664 --- [http-nio-8080-exec-4] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter doFilter 请求处理
+2019-07-15 00:27:58.172  INFO 1664 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:27:58.638  INFO 1664 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-07-15 00:27:58.749 ERROR 1664 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/blogsystem] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: org.bson.Document cannot be cast to java.util.Collection] with root cause
+
+java.lang.ClassCastException: org.bson.Document cannot be cast to java.util.Collection
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.writeInternal(MappingMongoConverter.java:494) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.write(MappingMongoConverter.java:443) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.convert.MappingMongoConverter.write(MappingMongoConverter.java:80) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.EntityOperations$MappedEntity.toMappedDocument(EntityOperations.java:509) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.doSave(MongoTemplate.java:1418) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.save(MongoTemplate.java:1372) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.data.mongodb.core.MongoTemplate.save(MongoTemplate.java:1358) ~[spring-data-mongodb-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.yty.blogsystem.controller.TestController.insertUserToMongo(TestController.java:50) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_211]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at com.yty.blogsystem.filter.TestFilter.doFilter(TestFilter.java:26) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:52) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:206) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_211]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar:9.0.17]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_211]
+
+2019-07-15 00:27:58.757  INFO 1664 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:27:58.770  INFO 1664 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor postHandle:请求后调用
+2019-07-15 00:27:58.778  INFO 1664 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-07-15 00:29:02.607  INFO 15196 --- [main] c.yty.blogsystem.BlogsystemApplication   : Starting BlogsystemApplication on DESKTOP-66AU3KI with PID 15196 (D:\IdeaProjects\blogsystem\target\classes started by 0.0 in D:\IdeaProjects\blogsystem)
+2019-07-15 00:29:02.610  INFO 15196 --- [main] c.yty.blogsystem.BlogsystemApplication   : No active profile set, falling back to default profiles: default
+2019-07-15 00:29:03.792  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:29:03.794  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:29:03.817  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-07-15 00:29:03.836  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:29:03.836  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:29:03.839  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-15 00:29:03.849  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-15 00:29:03.850  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-15 00:29:03.859  INFO 15196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-07-15 00:29:04.265  INFO 15196 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7926e1a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-15 00:29:04.559  INFO 15196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-07-15 00:29:04.581  INFO 15196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-15 00:29:04.581  INFO 15196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-15 00:29:04.588  INFO 15196 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019-07-15 00:29:04.589  INFO 15196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-07-15 00:29:04.589  INFO 15196 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-07-15 00:29:04.592  INFO 15196 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019-07-15 00:29:04.769  INFO 15196 --- [main] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring embedded WebApplicationContext
+2019-07-15 00:29:04.769  INFO 15196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2093 ms
+2019-07-15 00:29:05.126  INFO 15196 --- [main] ication$$EnhancerBySpringCGLIB$$df9dabac : 使用后初始化方法，观察自动生成的事务管理器:org.springframework.jdbc.datasource.DataSourceTransactionManager
+2019-07-15 00:29:05.186  INFO 15196 --- [main] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter 初始化
+2019-07-15 00:29:06.204  INFO 15196 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[120.77.87.104:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-15 00:29:06.617  INFO 15196 --- [main] com.yty.blogsystem.db.DataSourceShow     : 打印加载数据源：org.apache.commons.dbcp2.BasicDataSource
+2019-07-15 00:29:06.779  INFO 15196 --- [cluster-ClusterId{value='5d2b5852b47e723b5c0a59b3', description='null'}-120.77.87.104:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:28}] to 120.77.87.104:27017
+2019-07-15 00:29:06.824  INFO 15196 --- [cluster-ClusterId{value='5d2b5852b47e723b5c0a59b3', description='null'}-120.77.87.104:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=120.77.87.104:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 10]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=42590401}
+2019-07-15 00:29:07.003  INFO 15196 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-15 00:29:07.175  INFO 15196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 00:29:07.799  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : no modules loaded
+2019-07-15 00:29:07.802  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2019-07-15 00:29:07.802  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2019-07-15 00:29:07.802  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2019-07-15 00:29:07.802  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2019-07-15 00:29:07.802  INFO 15196 --- [main] o.elasticsearch.plugins.PluginsService   : loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2019-07-15 00:29:09.291  INFO 15196 --- [main] o.s.d.e.c.TransportClientFactoryBean     : Adding transport node : 127.0.0.1:9300
+2019-07-15 00:29:11.250  INFO 15196 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@299786b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b058bfd, org.springframework.security.web.header.HeaderWriterFilter@5c5f12e, org.springframework.security.web.csrf.CsrfFilter@2567c091, org.springframework.security.web.authentication.logout.LogoutFilter@70840a5a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76b642aa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3af39e7b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@75f8d9b0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1468e880, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14ca88bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2507a170, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f7ae05, org.springframework.security.web.session.SessionManagementFilter@68f69ca3, org.springframework.security.web.access.ExceptionTranslationFilter@7e76a66f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b4d83ac]
+2019-07-15 00:29:11.348  INFO 15196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-15 00:29:11.366  INFO 15196 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-15 00:29:11.397  INFO 15196 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-15 00:29:11.607  INFO 15196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/blogsystem'
+2019-07-15 00:29:11.610  INFO 15196 --- [main] c.yty.blogsystem.BlogsystemApplication   : Started BlogsystemApplication in 9.85 seconds (JVM running for 11.893)
+2019-07-15 00:29:11.615  INFO 15196 --- [main] c.yty.blogsystem.BlogsystemApplication   : 启动 BlogsystemApplication
+2019-07-15 00:30:03.106  INFO 15196 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/blogsystem]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 00:30:03.107  INFO 15196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-15 00:30:03.120  INFO 15196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-07-15 00:30:09.417  INFO 15196 --- [http-nio-8080-exec-4] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter doFilter 请求处理
+2019-07-15 00:30:09.424  INFO 15196 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:30:10.246  INFO 15196 --- [http-nio-8080-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:29}] to 120.77.87.104:27017
+2019-07-15 00:30:12.372  INFO 15196 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor postHandle:请求后调用
+2019-07-15 00:30:12.373  INFO 15196 --- [http-nio-8080-exec-4] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
+2019-07-15 00:32:17.070  INFO 15196 --- [http-nio-8080-exec-7] com.yty.blogsystem.filter.TestFilter     : 过滤器TestFilter doFilter 请求处理
+2019-07-15 00:32:17.072  INFO 15196 --- [http-nio-8080-exec-7] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor preHandle:请求前调用
+2019-07-15 00:32:17.371  INFO 15196 --- [http-nio-8080-exec-7] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor postHandle:请求后调用
+2019-07-15 00:32:17.371  INFO 15196 --- [http-nio-8080-exec-7] c.y.b.i.TestHandlerInterceptor           : 拦截器TestHandlerInterceptor afterCompletion:请求调用完成后回调方法，即在视图渲染完成后回调
